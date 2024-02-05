@@ -1,0 +1,399 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: LeagueSpartan;
+    src: url(fonts/LeagueSpartan-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Sanchez;
+    src: url(fonts/Sanchez-Regular.ttf);
+}
+
+body {
+    background: #F2F6F8;
+    padding-top: 23px;
+    margin: 0px;
+    font-family: Poppins;
+}
+
+.navbar {
+    background:#00425A;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+
+.navbar-logo {
+    height: 35px;
+    width: auto;
+    padding: 10px;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    margin-top: 30px;
+    background-image: url(assets/homebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    width: 100%;
+    /* background-color: #212121; */
+    text-align: center;
+    /* opacity: 20%; */
+}
+
+/* .main-content .sub-content{
+    opacity: 30%;
+} */
+
+.main-content .welcome {
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.main-content .duma {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 90px;
+    font-family: LeagueSpartan;
+    margin: 0px;
+}
+
+.separator {
+    background: #14FFEC;
+    width: 400px;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.sub-separator {
+    background: #212121 ;
+    margin-top: -550px;
+    height: 350px;
+    width: 1900px;
+    opacity: 30px;
+}
+
+.small-separator {
+    height: 4px;
+    width: 100px;
+    background: #FCDB07;
+}
+
+.main-content .label {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 5px;
+    margin-bottom: 40px;
+}
+
+.home-content-left {
+    padding-top: 30px;
+    width: 100%;  
+    text-align: center;
+    padding-left: 180px;
+}
+
+.home-img-left {
+    padding-top: -3px;
+    height: 200px;
+    transform: scale(1.75);
+    margin-left: 150px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00425A;
+    margin-top: 275px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.history-img-left {
+    height: 250px;
+    transform: scale(1.75);
+    margin-left: 160px;
+    object-fit: cover;
+}
+
+.destination-left {
+    width: 100%;  
+    text-align: center;
+    padding-left: 180px;
+}
+
+.history-img-right {
+    height: 250px;
+    transform: scale(1.75);
+    margin-right: 160px;
+    object-fit: cover;
+}
+
+.destination-right {
+    width: 100%;  
+    text-align: center;
+    padding-right: 180px;
+}
+
+ .header1 {
+    color: white;
+    font-family: sanchez;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: -10px;
+}
+
+ .header2 {
+    font-family: LeagueSpartan;
+    color: #ffffff;
+    margin-bottom: -8px;
+}
+
+ .desc {
+    color: white;
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 25px;
+}
+
+.book-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.book-now {
+    display: flex;
+    padding: 70px;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.book-now img {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.book-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-col img {
+    height: 100%;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-top: 40px;
+    justify-content: center;
+  }
+
+.column1 {
+    -ms-flex: 61.8%;
+    flex: 61.8%;
+    max-width: 61.8%;
+    padding: 0 4px;
+    position: relative;
+}
+
+.column1 div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.column1 div a {
+    justify-content: center;
+    color: #14FFEC;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.column1 div p {
+    margin-top: 0px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.column2 .label1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.column2 {
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    max-width: 30%;
+    padding: 0 20px;
+}
+
+.column1 img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.column2 img {
+    margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+}
+
+.flex div {
+    padding-right: 40px;
+}
+
+.flex div h5 {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.flex div p {
+    font-size: 15px;
+}
+
+.about-section {
+    margin-top: 225px;
+    background: #00425A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section .about-logo {
+    width: 250px;
+    margin-top: -168px;
+}
+
+.about-section h3 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.about-section p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding: 50px;
+}
+
+.delicacies-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #BFDB38;
+    margin-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.delicacy-img-left {
+    height: 250px;
+    transform: scale(1.75);
+    margin-left: 160px;
+    object-fit: cover;
+}
+
+.delicacy-left {
+    width: 100%;  
+    text-align: center;
+    padding-left: 180px;
+}
+
+.delicacy-left .desc {
+    color: #474747;
+    font-size: 12px;
+}
+
+.d-header1 {
+    font-size: 24px;
+    font-family: sanchez;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #00425A;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    display: flex;
+    color: #000000;
+    padding-top: 120px;
+    font-size: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
